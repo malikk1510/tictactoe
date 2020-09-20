@@ -1,0 +1,35 @@
+#root {
+  background-color: #2c3335;
+  height: 100vh;
+  display: flex;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.box {
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eaf0f1;
+}
+.box:hover {
+  box-shadow:  -6px -4px 17px 1px rgba(5,0,5,1);
+  background-color: #CAD3C8;
+  cursor: pointer;
+}
+.icon {
+  font-size: 35px;
+  color: #333945;
+}
+h1 {
+  box-shadow: -4px 0px 9px 0px rgba(0, 0, 0, 0.75);
+}
+button {
+  box-shadow: -4px 0px 9px 0px rgba(0, 0, 0, 0.75);
+}
