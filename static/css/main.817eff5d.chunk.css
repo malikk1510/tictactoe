@@ -1,0 +1,2 @@
+#root{background-color:#2c3335;height:100vh;display:flex}.grid{display:grid;grid-template-columns:1fr 1fr 1fr;grid-gap:15px}.box{width:auto;height:100px;display:flex;justify-content:center;align-items:center;background-color:#eaf0f1}.box:hover{box-shadow:-6px -4px 17px 1px #050005;background-color:#cad3c8;cursor:pointer}.icon{font-size:35px;color:#333945}button,h1{box-shadow:-4px 0 9px 0 rgba(0,0,0,.75)}
+/*# sourceMappingURL=main.817eff5d.chunk.css.map */
